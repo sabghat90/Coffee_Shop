@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SplashScreen">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        >
+        android:baselineAligned="false">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -20,15 +20,35 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="0.5"
             android:background="@color/orange"/>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:background="@color/pink"/>
 
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coffee_mug"
+        android:adjustViewBounds="true"
+        android:id="@+id/action_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-black"
+        android:rotation="-90"
+        android:layout_marginStart="-30dp"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:id="@+id/txtAppName"/>
 
 </RelativeLayout>
