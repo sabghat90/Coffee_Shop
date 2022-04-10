@@ -36,7 +36,8 @@
         android:layout_height="wrap_content"
         android:src="@drawable/coffee_mug"
         android:adjustViewBounds="true"
-        android:id="@+id/action_image"/>
+        android:id="@+id/action_image"
+        android:layout_marginTop="50dp"/>
 
     <TextView
         android:layout_width="wrap_content"
