@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">Coffee Shop</string>
     <string name="heading">Order Coffee</string>
+
+    <string-array name="item_name_array">
+        <item>Black Coffee</item>
+        <item>Milk Coffee</item>
+        <item>Mud Coffee</item>
+    </string-array>
+
+    <string-array name="item_description_array">
+        <item>Black Coffee is good</item>
+        <item>i like milk coffee</item>
+        <item>mud coffee is all time good</item>
+    </string-array>
 </resources>
